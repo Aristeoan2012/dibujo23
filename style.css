@@ -1,0 +1,31 @@
+body
+{
+  background-image: linear-gradient(225deg, #ffff5a 0, #ffff56 10%, #fffe54 20%, #e4f454 30%, #c4e855 40%, #a4d855 50%, #86c856 60%, #6aba57 70%, #51ad59 80%, #37a35c 90%, #149a5f 100%);
+}
+
+h1
+{  
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas
+{
+  border:5px solid white;
+  border-radius: 20px;
+  animation-name:example;
+  animation-duration: 4s;
+  margin-top: 50px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example{
+  from{box-shadow:1px 1px 38px rgb(6, 20, 207);}
+to {box-shadow:1px 1px 38px white;}
+
+}
